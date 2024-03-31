@@ -31,3 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+
+
+::-webkit-scrollbar{
+  width: 5px;
+  padding: 1px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 3px;
+  background-color: #777;
+}

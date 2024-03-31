@@ -37,7 +37,7 @@ const addText = () =>{
 
 return (
     <div className='relative flex flex-col w-full h-[100dvh]  p-4  max-w-[400px] overflow-y-scroll'>
-        <div className='overflow-y-scroll flex-grow'>
+        <div className='overflow-y-scroll flex-grow '>
         {   
 
             notes.map((el,index)=>{
@@ -52,7 +52,7 @@ return (
             })
         }
             </div>
-        <div className='w-full max-w-[400px] bg-black'>
+        <div className='w-full max-w-[400px] bg-black shadow'>
             <textarea onChange={(e)=>{setText(e.target.value)}} value={text} className='w-full mb-4 bg-neutral-800 p-2' ></textarea>
             <button onClick={addText} className='w-full p-4 bg-indigo-600'>Add</button>
         </div>

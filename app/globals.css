@@ -38,11 +38,14 @@ body {
 
 
 ::-webkit-scrollbar{
-  width: 5px;
-  padding: 1px;
+display: none;
 }
 
 ::-webkit-scrollbar-thumb{
   width: 3px;
   background-color: #777;
+}
+
+.shadow{
+  box-shadow: 0px -20px 20px rgba(0, 0, 0, 0.539) ;
 }
